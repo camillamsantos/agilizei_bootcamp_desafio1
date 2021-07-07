@@ -6,7 +6,7 @@
     "cy:run:mobile": "npx cypress run --config viewportWidth=411, viewportHeight=731",
     "cy:open": "npx cypress open",
     "cy:open:cucumber": "npx cypress open --config-file cypress-cucumber.json",
-    "cy:run:cucumber": "npx cypress run --config-file cypress-cucumber.json --spec **/All.features",
+    "cy:run:cucumber": "npx cypress run --config-file cypress-cucumber.json",
     "delete:reports": "rm cypress/results/* || true",
     "combine:reports": "jrm cypress/results/combined-report.xml \"cypress/results/*.xml\"",
     "prereport": "npm run delete:reports",
